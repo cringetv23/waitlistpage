@@ -1,0 +1,533 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #040406;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav
+{
+    width: 100%;
+    height:5rem;
+    background: linear-gradient(rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01));
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    /* background-color: #040406; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: fixed;
+    z-index: 2;
+}
+
+.butt
+{
+    width: auto;
+    height: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.tagg
+{
+    width: 2rem;
+    height: 2rem;
+    display: none;
+}
+
+
+
+.tagg span
+{
+    width: 1.5rem;
+    height: 0.2rem;
+    border-radius: 1rem;
+    background-color: #e1dede;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.logo
+{
+    width: 2.5rem;
+    height: 2.5rem;
+    background-image: url(../assets/Artboard\ 18.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo2
+{
+    width: 8rem;
+    height: 4rem;
+    margin-left: -1rem;
+    background-image: url(../assets/Artboard\ 19.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tabs
+{
+    width: 60%;
+    height: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav button
+{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 0.3rem;
+    background-color: #12f97f;
+    display: none;
+    color: white;
+    outline: 0;
+    border: 0;
+}
+
+header
+{
+    width: 100%;
+    height: auto;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text
+{
+    width: 40%;
+    height: 50vh;
+    padding: 1rem;
+}
+
+#text
+{
+    width: 80%;
+    height: 75vh;
+    padding: 1rem;
+    padding-top: 7rem;
+}
+
+.text h2
+{
+    font-size: 4rem;
+}
+
+#text h2
+{
+    font-size: 4rem;
+}
+
+.text p 
+{
+    font-size: 1.2rem;
+}
+
+#text p 
+{
+    font-size: 1.2rem;
+}
+
+.button
+{
+    padding: 1rem 2.5rem;
+    background-color: #12f97f;
+    border-radius: 0.5rem;
+}
+
+.text form
+{
+    width: 70%;
+    height: 3rem;
+    padding: 0.7rem;
+    display: flex;
+    align-items: center;
+}
+
+.text form input 
+{
+    width: 70%;
+    height: 95%;
+    border: 0;
+    outline: 0;
+    padding-left: 1rem;
+}
+
+.text form button
+{
+    width: 30%;
+    height: 99%;
+    border: 0;
+    outline: 0;
+    background-color: #12f97f;
+    color: white;
+}
+
+.immg
+{
+    width: 50%;
+    height: 70vh;
+    padding: 1rem;
+    background-image: url(../assets/heroimg.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.immg2
+{
+    width: 50%;
+    height: 70vh;
+    padding: 1rem;
+    background-image: url(../assets/Voice\ chat-bro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.immg3
+{
+    width: 50%;
+    height: 70vh;
+    padding: 1rem;
+    background-image: url(../assets/Online\ ads-bro.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.menu
+{
+    width: 100%;
+    height: 100vh;
+    background-color: #040406;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    margin-top: 5rem;
+    color: #e1dede;
+    display: none;
+}
+
+.active
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.menu a 
+{
+    font-size: 1rem;
+    margin-top: 3rem;
+    padding-left: 1rem;
+}
+
+.menu a:nth-child(3)
+{
+    margin-bottom: 3rem;
+} 
+
+.menu button
+{
+    width: 50%;
+    height: 2rem;
+    border: 0;
+    outline: 0;
+    display: none;
+    margin-left: 1rem;
+    background-color: #12f97f;
+    color: white;
+}
+
+.features
+{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cardbox
+{
+    width: 90%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.card
+{
+    width: 15rem;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imm 
+{
+    width: 100%;
+    height: 60%;
+}
+
+
+.imm
+{
+    background: url(../assets/Group\ 13.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#imm
+{
+    background: url(../assets/Group\ 14.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tex
+{
+    width: 100%;
+    height: 35%;
+    text-align: center;
+}
+
+#par
+{
+    background-color: rgb(12, 12, 12);
+    width: 70%;
+    height: 65%;
+    display: grid; 
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+}
+
+.pricing
+{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricetab
+{
+    width: 80%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.pricetab2
+{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.tabb
+{
+    width: 30%;
+    height: 450px;
+    text-align: center;
+    background-color: rgb(41, 40, 39);
+    box-shadow: -7px 8px #12f97f;
+}
+
+.tabb2
+{
+    width: 80%;
+    height: 450px;
+    margin-bottom: 1rem;
+    text-align: center;
+    background-color: rgb(41, 40, 39);
+    box-shadow: -7px 8px #12f97f;
+}
+
+#sub
+{
+    font-weight: bold;
+}
+
+.not
+{
+    text-decoration: line-through;
+    color: grey;
+}
+
+
+.faqq
+{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.boxx
+{
+    width: 70%;
+    height: auto;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    /* padding-bottom: 2rem; */
+}
+
+.contentBx
+{
+    position: relative;
+    margin-bottom: 1rem;
+    height: auto;
+    width: 100%;
+}
+
+.contentBx .label
+{
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    background-color: #232222;
+    color: #ded9d9;
+    cursor: pointer;
+    text-align: left;
+    
+}
+
+.label::before
+{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+
+.contentBx.active .label::before
+{
+    content: '-';
+}
+
+.accordion .contentBx .content
+{
+    position: relative;
+    background-color: #232222;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;;
+}
+
+.contentBx.active
+{
+    height: auto;
+    padding: 1rem;
+    background-color: #2e2e2e;
+    text-align: left;
+    display: block;
+} 
+
+.contentBx.active .content p
+{
+    display: block;
+    margin-top: -1rem;
+    font-size: 13px;
+    
+}
+
+.content p
+{
+    display: none;
+}
+
+.countdown
+{
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timer
+{
+    width: 60%;
+    height: auto;
+    padding: 1rem;
+    background-color: #12f97f;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.timer p 
+{
+    
+    display: inline;
+    font-size: 2rem;
+    background-color: #040406;
+    padding: 2rem;
+}
+
+/* FOOTER */
+
+footer
+{
+    width: 100%;
+    height: 2rem;
+    background-color: #12f97f;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+  
+  .heart 
+  {
+    color: #2f2f2f;
+  }
+    
+  

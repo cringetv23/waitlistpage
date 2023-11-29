@@ -1,0 +1,146 @@
+@media (max-width: 940px) {
+    .tabs, .butt
+    {
+        display: none;
+    }
+
+    .tagg
+    {      
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-right: 1rem;
+    }
+
+    .logo
+    {
+        margin-left: 1rem;
+    }
+
+    nav
+    {
+        justify-content: space-between;
+    }
+
+    .immg, .immg2, .immg3
+    {
+        display: none;
+    }
+
+    .text 
+    {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #text 
+    {
+        width: 90%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text h2
+    {
+        font-size: 2.5rem;
+    }
+
+    #text h2
+    {
+        font-size: 2.5rem;
+    }
+
+    .text form button
+    {
+        padding: 1rem;
+    }
+
+    .cardbox
+    {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .card 
+    {
+        width: 60%;
+        height: 320px;
+        margin-bottom: 1rem;
+    }
+
+    .pricetab
+    {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .pricetab2
+    {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .tabb
+    {
+        margin-bottom: 2rem;
+        width: 95%;
+        height: 300px;
+    }
+
+    #pri
+    {
+        font-size: 15px; 
+        margin-top: -0.5rem;
+    }
+
+    .con
+    {
+        font-size: 15px;
+    }
+
+    .timer
+    {
+        width: 80%;
+    }
+
+    .timer p 
+    {
+        padding: 0.5rem;
+    }
+}
+
+@media (max-width: 540px) {
+    
+    .cardbox
+    {
+        flex-direction: column;
+        width: 60%;
+    }
+
+    .card 
+    {
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+  
+@media screen and (min-width: 24.375em) {
+    .legal .legal__links {
+      margin-left: auto;
+    }
+  }
+  
+  @media screen and (min-width: 40.375em) {
+    .footer__nav > * {
+      flex: 1;
+    }
+}
